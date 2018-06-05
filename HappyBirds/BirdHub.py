@@ -16,7 +16,7 @@ def start_screen():
 def menu():
 
     '''Opens the menu screen containing, the features, play, levels and quit'''
-    music = sound("Background.wav")
+    #music = sound("Background.wav")
 
     menuscreen = MainScreen("level1.jpg")
     play = textsprite("AngryBirds", "Play", 60, 100, 100, 255, 255, 255)
